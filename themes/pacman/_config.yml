@@ -74,7 +74,7 @@ author:
 #### Comment
 duoshuo: 
   enable: true ## duoshuo.com
-  short_name: true ## duoshuo short name.
+  short_name: codingforever ## duoshuo short name.
 
 #### Share button
 jiathis:
