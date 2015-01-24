@@ -88,3 +88,18 @@ deploy:
   type: github
   repository: https://github.com/zhujiefirst/zhujiefirst.github.io.git
   branch: master 
+
+# Extensions
+Plugins:
+#- hexo-generator-feed
+- hexo-generator-sitemap
+
+#Feed Atom
+#feed:
+#  type: atom
+#  path: atom.xml
+#  limit: 20
+
+#sitemap
+sitemap:
+  path: sitemap.xml
