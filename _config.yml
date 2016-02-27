@@ -85,8 +85,8 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repository: https://github.com/zhujiefirst/zhujiefirst.github.io.git
+  type: git
+  repository: git@github.com:zhujiefirst/zhujiefirst.github.io.git
   branch: master 
 
 # Extensions
@@ -94,6 +94,7 @@ Plugins:
 #- hexo-generator-feed
 - hexo-generator-sitemap --save
 - hexo-generator-baidu-sitemap --save
+- hexo-deployer-git --save
 
 #Feed Atom
 #feed:
